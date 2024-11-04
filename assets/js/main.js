@@ -75,7 +75,8 @@
     e.preventDefault();
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
+      duration: 1000
     });
   });
 
