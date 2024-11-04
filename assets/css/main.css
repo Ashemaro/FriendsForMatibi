@@ -1057,6 +1057,10 @@ section,
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   position: relative;
   border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 
 .constructions .card-item .card-bg {
@@ -1913,6 +1917,13 @@ section,
 /*--------------------------------------------------------------
 # Features Cards Section
 --------------------------------------------------------------*/
+.card-item{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
 .features-cards h3 {
   font-size: 20px;
   font-weight: 700;
