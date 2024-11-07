@@ -1056,11 +1056,13 @@ section,
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   position: relative;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  height: 400px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
 }
 
 .constructions .card-item .card-bg {
@@ -1584,8 +1586,10 @@ section,
 --------------------------------------------------------------*/
 .recent-blog-posts .post-item {
   background: var(--surface-color);
+  border-radius: 10px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  overflow: hidden;
 }
 
 .recent-blog-posts .post-item .post-img img {

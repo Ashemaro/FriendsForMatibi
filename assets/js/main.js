@@ -161,3 +161,9 @@
   new PureCounter();
 
 })();
+
+const myCarousel = document.getElementById('hero-carousel');
+const carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 5000 // Adjust the interval in milliseconds (e.g., 5000 for 5 seconds)
+});
+myCarousel.style.transitionDuration = '2s';
